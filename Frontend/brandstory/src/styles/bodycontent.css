@@ -1,0 +1,80 @@
+.bodyContent {
+    padding-top: 50px;
+    background-color: black;
+   
+    display: flex;
+    flex-direction: column; 
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+  }
+  
+  .contents {
+    flex: 2;
+  }
+  
+  .contents h1 {
+    font-size: 60px;
+  }
+  .contentpara{
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
+ 
+
+  }
+  
+  .image {
+    flex:2 ;
+  }
+  
+  .image img {
+   
+    object-fit: cover;
+  }
+  
+
+  .line-pagination {
+    display: flex;
+  
+    gap: 10px;
+    margin-top: 20px;
+ 
+  }
+  
+  .line {
+    width: 150px;
+    height: 4px;
+    background-color: #666;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .line.active {
+    background-color: orange;
+    height: 6px;
+    width: 150px;
+  }
+  .sales {
+    padding-top: 70px;
+    border: 2px solid #007BFF;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sales:hover {
+    background-color: #0056b3; 
+  }
