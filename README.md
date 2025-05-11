@@ -14,6 +14,7 @@ Database Setup :
 );
 
 Steps To Run The Project:
+
 BACKEND :
      1) Navigate to the Backend folder -> cd Backend/
      2)npm install
